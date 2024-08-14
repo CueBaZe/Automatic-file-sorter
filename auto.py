@@ -21,12 +21,13 @@ audio_extensions = [".m4a", ".flac", "mp3", ".wav", ".wma", ".aac"]
 document_extensions = [".doc", ".docx", ".odt",".pdf", ".xls", ".xlsx", ".ppt", ".pptx"]
 
 # Source and Paths
-source_dir =r"C:\Users\olive\Downloads"
-dest_dir_sfx = r"C:\Users\olive\OneDrive\Skrivebord\Sound" 
-dest_dir_musik = r"C:\Users\olive\OneDrive\Skrivebord\Musik"
-dest_dir_video = r"C:\Users\olive\OneDrive\Skrivebord\Videoer"
-dest_dir_docs = r"C:\Users\olive\OneDrive\Skrivebord\docs"
-dest_dir_picture = r"C:\Users\olive\OneDrive\Skrivebord\billeder"
+#Source is where it checks for new files
+source_dir =r"PATH TO THE SOURCE"
+dest_dir_sfx = r"PATH TO SOUND FOLDER" 
+dest_dir_musik = r"PATH TO MUSIC FOLDER"
+dest_dir_video = r"PATH TO VIDEO FOLDER"
+dest_dir_docs = r"PATH TO DOCS FOLDER"
+dest_dir_picture = r"PATH TO PICTURE FOLDER"
 
 #Checks if source directory exists
 if not os.path.exists(source_dir):
