@@ -9,3 +9,5 @@ HOW TO USE
 4. Then you start the script from CMD or Powershell
 
    Now it should put the file you download into the folder where it belongs.
+
+   The first time you do it. It takes all file from the source that belong in one of the folders.
