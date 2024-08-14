@@ -10,4 +10,4 @@ HOW TO USE
 
    Now it should put the file you download into the folder where it belongs.
 
-   The first time you do it. It takes all file from the source that belong in one of the folders.
+   The first time you download a file to the Source dir. It takes all file from the source that belong in one of the folders.
